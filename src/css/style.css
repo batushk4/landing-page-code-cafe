@@ -131,3 +131,27 @@ body {
     width: 50%;
 }
 
+.contato {
+    background: url(../img/fundo-contato.jpg) center center no-repeat;
+    color: white;
+    height: 600px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contato h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.contato address {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contato .texto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
