@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600&display=swap");
 
+:root {
+    --color-white: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +29,7 @@ img {
 
 body {
     width: 1440px;
+    margin: 0 auto;
 }
 
 .cabecalho {
@@ -65,7 +70,7 @@ body {
 }
 
 .painel h2 {
-    color: white;
+    color: var(--color-white);
     font-size: 60px;
     font-weight: 400;
     text-align: center;
@@ -133,7 +138,7 @@ body {
 
 .contato {
     background: url(../img/fundo-contato.jpg) center center no-repeat;
-    color: white;
+    color: var(--color-white);
     height: 600px;
     position: relative;
     margin-bottom: 30px;
@@ -153,5 +158,49 @@ body {
     position: absolute;
     top: 30%;
     left: 50%;
+}
+
+.rodape {
+    background: url(/src/img/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: var(--color-white);
+}
+
+.rodape ul li a:hover {
+    font-weight: bold;
+}
+
+.rodape .copyright {
+    color: var(--color-white);
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo {
+    margin-bottom: 40px;
 }
 
